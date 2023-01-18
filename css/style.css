@@ -1,0 +1,31 @@
+:root {
+  --bg-color: rgb(26, 26, 48);
+  --color-neon-pink: rgb(255, 0, 191);
+}
+
+body {
+  background-color: var(--bg-color);
+  display: grid;
+  grid-template-rows: 1fr auto;
+  justify-items: center;
+}
+
+header {
+  grid-row: 1;
+}
+
+h1 {
+  font-family: 'Rock Salt', cursive;
+  font-size: 3rem;
+  color: var(--color-neon-pink);
+  text-shadow: 0 0 5px var(--color-neon-pink);
+}
+
+main {
+  grid-row: 2;
+
+  background-color: rgb(255, 255, 255);
+  height: 500px;
+  width: 500px;
+  border-radius: 5%;
+}
