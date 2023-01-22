@@ -154,7 +154,7 @@ const game = (() => {
 
     if (roundWon) {
       // console.log(`${getCurrentPlayer()} wins!`);
-      playerDisplay.textContent = `${getCurrentPlayer()} wins!`;
+      playerDisplay.textContent = `Player ${getCurrentPlayer()} wins!`;
       gameBoard.changeRunning();
       // console.log(`running = ${gameBoard.getRunning()}`);
     } else if (!gameBoard.board.includes("")) {

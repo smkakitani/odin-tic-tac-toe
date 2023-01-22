@@ -94,7 +94,6 @@ h1 {
 
   border-radius: 50%;
   border: 2px solid var(--color-neon-red);
-
 }
 
 #container-players button:hover {
@@ -108,8 +107,6 @@ h1 {
   font-size: 2rem;
   text-shadow: 2px 2px 5px var(--color-neon-violet), 2px 2px 3px var(--color-neon-red);
 }
-
-
 
 /* main */
 main {
